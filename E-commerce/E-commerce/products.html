@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="products.css">
+    <script src="products.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="registration.html">Register</a>
+    </nav>
+    
+    <main class="container">
+        <section class="filter-sort">
+            <label for="filter-input">Filter Products:</label>
+            <input type="text" id="filter-input" placeholder="Search products..." aria-label="Search products">
+
+            <label for="sort-select">Sort By:</label>
+            <select id="sort-select" aria-label="Sort products">
+                <option value="name">Name</option>
+                <option value="price">Price</option>
+            </select>
+        </section>
+
+        <section class="product-columns">
+            <div class="left-column">
+                <article class="product-item" data-price="19.99">
+                    <img src="segment.jpg" alt="Toyota Fortuner" class="product-image">
+                    <h3>Segment Killers</h3>
+                    <p><strong>Brand:</strong> Toyota</p>
+                    <p><strong>Other Options:</strong> Nissan Patrol, Mitsubishi Pajero</p>
+                    <p><strong>Description:</strong> Fortuner 4x4. It's a great choice!</p>
+                    <p><strong>Newly Launched:</strong> Toyota Fortuner Legender</p>
+                </article>
+
+                <article class="product-item" data-price="29.99">
+                    <img src="sports.jpg" alt="Porsche 911 GT3" class="product-image">
+                    <h3>Sports</h3>
+                    <p><strong>Brand:</strong> Porsche</p>
+                    <p><strong>Other Options:</strong> Ferrari 488, McLaren 720S</p>
+                    <p><strong>Description:</strong> Porsche 911 GT3. Touch the heaven!</p>
+                    <p><strong>Newly Launched:</strong> Porsche 911 Turbo S</p>
+                </article>
+
+                <article class="product-item" data-price="9.99">
+                    <img src="1 Rolls-Royce Cullinan review.jpg" alt="Rolls-Royce" class="product-image">
+                    <h3>Luxury Cars</h3>
+                    <p><strong>Brand:</strong> Rolls-Royce</p>
+                    <p><strong>Other Options:</strong> Bentley Mulsanne, Mercedes-Maybach S-Class</p>
+                    <p><strong>Description:</strong> Rolls-Royce. Best seller!</p>
+                    <p><strong>Newly Launched:</strong> Rolls-Royce Ghost</p>
+                </article>
+            </div>
+
+            <div class="right-column">
+                <article class="product-item" data-price="15.99">
+                    <img src="telsa ev.jpg" alt="Tesla Model S" class="product-image">
+                    <h3>Electric Cars</h3>
+                    <p><strong>Brand:</strong> Tesla</p>
+                    <p><strong>Other Options:</strong> Audi e-tron, Nissan Leaf</p>
+                    <p><strong>Description:</strong> Tesla Model S. Drive the future!</p>
+                    <p><strong>Newly Launched:</strong> Tesla Model S Plaid</p>
+                </article>
+
+                <article class="product-item" data-price="12.99">
+                    <img src="range rover equape.jpg" alt="Range Rover Evoque" class="product-image">
+                    <h3>SUV</h3>
+                    <p><strong>Brand:</strong> Range Rover Land Rover</p>
+                    <p><strong>Other Options:</strong> BMW X5, Audi Q7</p>
+                    <p><strong>Description:</strong> Range Rover Evoque. Luxury redefined!</p>
+                    <p><strong>Newly Launched:</strong> Range Rover Velar</p>
+                </article>
+
+                <article class="product-item" data-price="22.99">
+                    <img src="Lamborghini_Urus1.jpg" alt="Lamborghini Urus" class="product-image">
+                    <h3>Supercar</h3>
+                    <p><strong>Brand:</strong> Lamborghini</p>
+                    <p><strong>Other Options:</strong> Ferrari F8, Aston Martin DB11</p>
+                    <p><strong>Description:</strong> Lamborghini Urus. Speed meets style!</p>
+                    <p><strong>Newly Launched:</strong> Lamborghini Huracán STO</p>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
