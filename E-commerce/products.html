@@ -5,22 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
     <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <script src="products.js" defer></script>
 </head>
 <body>
     <header>
-        <header>
-            <img src="grearup (4).png" alt="Company Logo" class="logo">
-            <h1>Our Products</h1>
+        <img src="grearup (4).png" alt="Company Logo" class="logo">
+        <h1>Our Products</h1>
     </header>
     
     <nav>
         <a href="index.html">Home</a>
+        </a>
         <a href="products.html">Products</a>
         <a href="about.html">About Us</a>
         <a href="contact.html">Contact</a>
         <a href="registration.html">Register</a>
+        <a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a>
+        <span class="cart-count">0</span>
     </nav>
+    
     
     <main class="container">
         <section class="filter-sort">
@@ -36,13 +41,29 @@
 
         <section class="product-columns">
             <div class="left-column">
-                <article class="product-item" data-price="50lakh$">
-                    <img src="segment.jpg" alt="Toyota Fortuner" class="product-image">
+                <article class="product-item" data-price="5000000">
+                    <img src="E-commerce/segment.jpg" alt="Toyota Fortuner" class="product-image">
                     <h3>Segment Killers</h3>
                     <p><strong>Brand:</strong> Toyota</p>
                     <p><strong>Other Options:</strong> Nissan Patrol, Mitsubishi Pajero</p>
                     <p><strong>Description:</strong> Fortuner 4x4. It's a great choice!</p>
                     <p><strong>Newly Launched:</strong> Toyota Fortuner Legender</p>
+
+                    <section class="reviews">
+                        <h4>Reviews:</h4>
+                        <div class="review">
+                            <p><strong>John Doe:</strong> Amazing car, great value for money!</p>
+                            <p><strong>Rating:</strong> ★★★★☆</p>
+                            <p><strong>Comment:</strong> The Toyota Fortuner is a rugged and reliable SUV. It's perfect for off-road adventures and family trips. The ride is smooth, and the build quality is excellent.</p>
+                        </div>
+                        <div class="review">
+                            <p><strong>Jane Smith:</strong> Love the new features. Highly recommend!</p>
+                            <p><strong>Rating:</strong> ★★★★★</p>
+                            <p><strong>Comment:</strong> The new features on the Fortuner Legender are fantastic. The improved safety technology and luxury interiors make it a top choice in its segment.</p>
+                        </div>
+                    </section>
+                    <button class="BUY Now">Buy Now</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
                 </article>
 
                 <article class="product-item" data-price="29.99">
@@ -52,6 +73,22 @@
                     <p><strong>Other Options:</strong> Ferrari 488, McLaren 720S</p>
                     <p><strong>Description:</strong> Porsche 911 GT3. Touch the heaven!</p>
                     <p><strong>Newly Launched:</strong> Porsche 911 Turbo S</p>
+
+                    <section class="reviews">
+                        <h4>Reviews:</h4>
+                        <div class="review">
+                            <p><strong>John Doe:</strong> Fantastic driving experience!</p>
+                            <p><strong>Rating:</strong> ★★★★★</p>
+                            <p><strong>Comment:</strong> The Porsche 911 GT3 offers an exhilarating driving experience. The handling is precise, and the acceleration is breathtaking. A true driver's car.</p>
+                        </div>
+                        <div class="review">
+                            <p><strong>Jane Smith:</strong> Impressive speed and handling!</p>
+                            <p><strong>Rating:</strong> ★★★★☆</p>
+                            <p><strong>Comment:</strong> The GT3's speed and handling are second to none. The ride can be a bit harsh on rough roads, but it's worth it for the performance.</p>
+                        </div>
+                    </section>
+                    <button class="buy now">buy now</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
                 </article>
 
                 <article class="product-item" data-price="9.99">
@@ -61,6 +98,22 @@
                     <p><strong>Other Options:</strong> Bentley Mulsanne, Mercedes-Maybach S-Class</p>
                     <p><strong>Description:</strong> Rolls-Royce. Best seller!</p>
                     <p><strong>Newly Launched:</strong> Rolls-Royce Ghost</p>
+
+                    <section class="reviews">
+                        <h4>Reviews:</h4>
+                        <div class="review">
+                            <p><strong>John Doe:</strong> Ultimate luxury and comfort!</p>
+                            <p><strong>Rating:</strong> ★★★★★</p>
+                            <p><strong>Comment:</strong> The Rolls-Royce offers unparalleled luxury and comfort. The attention to detail is impeccable, and the ride is incredibly smooth.</p>
+                        </div>
+                        <div class="review">
+                            <p><strong>Jane Smith:</strong> Exquisite craftsmanship!</p>
+                            <p><strong>Rating:</strong> ★★★★☆</p>
+                            <p><strong>Comment:</strong> The craftsmanship of the Rolls-Royce is exceptional. It's a beautiful car with a truly luxurious interior.</p>
+                        </div>
+                    </section>
+                    <button class="buy now">Buy now</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
                 </article>
 
                 <article class="product-item" data-price="24.99">
@@ -70,6 +123,22 @@
                     <p><strong>Other Options:</strong> BMW M5, Mercedes-AMG E63</p>
                     <p><strong>Description:</strong> Audi RS7. Unleash the beast!</p>
                     <p><strong>Newly Launched:</strong> Audi RS6 Avant</p>
+
+                    <section class="reviews">
+                        <h4>Reviews:</h4>
+                        <div class="review">
+                            <p><strong>John Doe:</strong> Incredible performance and handling!</p>
+                            <p><strong>Rating:</strong> ★★★★★</p>
+                            <p><strong>Comment:</strong> The Audi RS7 is a powerhouse with incredible performance. The handling is sharp, and the acceleration is superb.</p>
+                        </div>
+                        <div class="review">
+                            <p><strong>Jane Smith:</strong> Top-notch driving experience!</p>
+                            <p><strong>Rating:</strong> ★★★★☆</p>
+                            <p><strong>Comment:</strong> A fantastic car overall, though the ride can be a bit stiff. The performance and technology make up for it.</p>
+                        </div>
+                    </section>
+                    <button class="Buy now">Buy now</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
                 </article>
 
                 <article class="product-item" data-price="13.99">
@@ -79,36 +148,50 @@
                     <p><strong>Other Options:</strong> Ford Bronco, Toyota Land Cruiser</p>
                     <p><strong>Description:</strong> Jeep Wrangler. Conquer the wilderness!</p>
                     <p><strong>Newly Launched:</strong> Jeep Gladiator</p>
-                </article>
 
-                <article class="product-item" data-price="17.99">
-                    <img src="bmw 1.jpg" alt="BMW i8" class="product-image">
-                    <h3>Hybrids</h3>
-                    <p><strong>Brand:</strong> BMW</p>
-                    <p><strong>Other Options:</strong> Lexus LC500h, Porsche Panamera</p>
-                    <p><strong>Description:</strong> BMW i8. Where luxury meets efficiency!</p>
-                    <p><strong>Newly Launched:</strong> BMW X5 xDrive45e</p>
+                    <section class="reviews">
+                        <h4>Reviews:</h4>
+                        <div class="review">
+                            <p><strong>John Doe:</strong> Perfect for off-road adventures!</p>
+                            <p><strong>Rating:</strong> ★★★★★</p>
+                            <p><strong>Comment:</strong> The Jeep Wrangler is ideal for off-road enthusiasts. It handles rough terrain with ease and is built to last.</p>
+                        </div>
+                        <div class="review">
+                            <p><strong>Jane Smith:</strong> Robust and reliable!</p>
+                            <p><strong>Rating:</strong> ★★★★☆</p>
+                            <p><strong>Comment:</strong> A reliable off-roader with great capabilities. The ride can be noisy on highways, but it's worth it for off-road performance.</p>
+                        </div>
+                    </section>
+                    <button class="Buy now">Buy now</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
                 </article>
             </div>
 
             <div class="right-column">
-                <article class="product-item" data-price="15.99">
-                    <img src="telsa ev.jpg" alt="Tesla Model S" class="product-image">
-                    <h3>Electric Cars</h3>
-                    <p><strong>Brand:</strong> Tesla</p>
-                    <p><strong>Other Options:</strong> Audi e-tron, Nissan Leaf</p>
-                    <p><strong>Description:</strong> Tesla Model S. Drive the future!</p>
-                    <p><strong>Newly Launched:</strong> Tesla Model S Plaid</p>
-                </article>
+                <article class="product-item" data-price="17.99">
+                    <img src="bmw 1.jpg" alt="BMW X5" class="product-image">
+                    <h3>Luxury SUVs</h3>
+                    <p><strong>Brand:</strong> BMW</p>
+                    <p><strong>Other Options:</strong> Mercedes GLE, Audi Q7</p>
+                    <p><strong>Description:</strong> BMW X5. Perfect blend of luxury and utility!</p>
+                    <p><strong>Newly Launched:</strong> BMW X6</p>
 
-                <article class="product-item" data-price="12.99">
-                    <img src="range rover equape.jpg" alt="Range Rover Evoque" class="product-image">
-                    <h3>SUV</h3>
-                    <p><strong>Brand:</strong> Range Rover</p>
-                    <p><strong>Other Options:</strong> BMW X5, Audi Q7</p>
-                    <p><strong>Description:</strong> Range Rover Evoque. Luxury redefined!</p>
-                    <p><strong>Newly Launched:</strong> Range Rover Velar</p>
-                </article>
+                    <section class="reviews">
+                        <h4>Reviews:</h4>
+                        <div class="review">
+                            <p><strong>John Doe:</strong> Excellent luxury SUV!</p>
+                            <p><strong>Rating:</strong> ★★★★★</p>
+                            <p><strong>Comment:</strong> The BMW X5 combines luxury and utility flawlessly. It's comfortable, stylish, and packed with features.</p>
+                        </div>
+                        <div class="review">
+                            <p><strong>Jane Smith:</strong> Great performance and comfort!</p>
+                            <p><strong>Rating:</strong> ★★★★☆</p>
+                            <p><strong>Comment:</strong> A great luxury SUV with impressive performance. The ride quality is excellent, but the price can be a bit high.</p>
+                        </div>
+                    </section>
+                <button class="Buy now">Buy now</button>
+                                    <button class="add-to-cart-btn">Add to Cart</button>
+                                    </article>
 
                 <article class="product-item" data-price="22.99">
                     <img src="Lamborghini_Urus1.jpg" alt="Lamborghini Urus" class="product-image">
@@ -117,6 +200,22 @@
                     <p><strong>Other Options:</strong> Ferrari F8, Aston Martin DB11</p>
                     <p><strong>Description:</strong> Lamborghini Urus. Speed meets style!</p>
                     <p><strong>Newly Launched:</strong> Lamborghini Huracán STO</p>
+
+                    <section class="reviews">
+                        <h4>Reviews:</h4>
+                        <div class="review">
+                            <p><strong>John Doe:</strong> Unmatched performance and design!</p>
+                            <p><strong>Rating:</strong> ★★★★★</p>
+                            <p><strong>Comment:</strong> The Lamborghini Urus delivers exceptional performance with a striking design. It's a supercar that stands out in every way.</p>
+                        </div>
+                        <div class="review">
+                            <p><strong>Jane Smith:</strong> A true beast on the road!</p>
+                            <p><strong>Rating:</strong> ★★★★☆</p>
+                            <p><strong>Comment:</strong> The Urus is incredibly powerful and stylish. It's a fantastic supercar, though it comes at a premium price.</p>
+                        </div>
+                    </section>
+                    <button class="Buy now">Buy Now</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
                 </article>
 
                 <article class="product-item" data-price="21.99">
@@ -126,6 +225,22 @@
                     <p><strong>Other Options:</strong> Range Rover, Lexus LX</p>
                     <p><strong>Description:</strong> Mercedes G63. Iconic and luxurious!</p>
                     <p><strong>Newly Launched:</strong> Mercedes EQG</p>
+
+                    <section class="reviews">
+                        <h4>Reviews:</h4>
+                        <div class="review">
+                            <p><strong>John Doe:</strong> Outstanding luxury and performance!</p>
+                            <p><strong>Rating:</strong> ★★★★★</p>
+                            <p><strong>Comment:</strong> The Mercedes G63 is the epitome of luxury and performance. It's a powerful SUV with a commanding presence.</p>
+                        </div>
+                        <div class="review">
+                            <p><strong>Jane Smith:</strong> A top-tier luxury SUV!</p>
+                            <p><strong>Rating:</strong> ★★★★☆</p>
+                            <p><strong>Comment:</strong> A fantastic luxury SUV with impressive features and performance. It's worth every penny, though it's quite expensive.</p>
+                        </div>
+                    </section>
+                    <button class="Buy now">Buy now</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
                 </article>
 
                 <article class="product-item" data-price="16.99">
@@ -135,27 +250,59 @@
                     <p><strong>Other Options:</strong> Mercedes GLE, Audi Q8</p>
                     <p><strong>Description:</strong> Volvo XC90. Safety first!</p>
                     <p><strong>Newly Launched:</strong> Volvo XC60 Recharge</p>
+
+                    <section class="reviews">
+                        <h4>Reviews:</h4>
+                        <div class="review">
+                            <p><strong>John Doe:</strong> Best in safety and reliability!</p>
+                            <p><strong>Rating:</strong> ★★★★★</p>
+                            <p><strong>Comment:</strong> The Volvo XC90 is an excellent choice for families. It's safe, reliable, and has a comfortable ride.</p>
+                        </div>
+                        <div class="review">
+                            <p><strong>Jane Smith:</strong> A safe choice for families!</p>
+                            <p><strong>Rating:</strong> ★★★★☆</p>
+                            <p><strong>Comment:</strong> The XC90 offers outstanding safety features and reliability. It's a great SUV for family use, though the technology could be updated.</p>
+                        </div>
+                    </section>
+                    <button class="Buy Now">Buy now</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
                 </article>
 
-                <article class="product-item" data-price="20.99">
+                <article class="product-item" data-price="₹20.99">
                     <img src="aston1.jpg" alt="Aston Martin DB11" class="product-image">
                     <h3>Grand Tourer</h3>
                     <p><strong>Brand:</strong> Aston Martin</p>
                     <p><strong>Other Options:</strong> Bentley Continental GT, Ferrari Roma</p>
                     <p><strong>Description:</strong> Aston Martin DB11. The ultimate grand tourer!</p>
                     <p><strong>Newly Launched:</strong> Aston Martin Vantage Roadster</p>
-                </article>
 
-                <article class="product-item" data-price="11.99">
-                    <img src="masda1.jpg" alt="Mazda MX-5 Miata" class="product-image">
-                    <h3>Convertibles</h3>
-                    <p><strong>Brand:</strong> Mazda</p>
-                    <p><strong>Other Options:</strong> BMW Z4, Porsche Boxster</p>
-                    <p><strong>Description:</strong> Mazda MX-5 Miata. Pure driving pleasure!</p>
-                    <p><strong>Newly Launched:</strong> Mazda MX-5 RF</p>
+                    <section class="reviews">
+                        <h4>Reviews:</h4>
+                        <div class="review">
+                            <p><strong>John Doe:</strong> Exquisite luxury and performance!</p>
+                            <p><strong>Rating:</strong> ★★★★★</p>
+                            <p><strong>Comment:</strong> The Aston Martin DB11 offers exceptional luxury and performance. It's a stunning grand tourer with a refined driving experience.</p>
+                        </div>
+                        <div class="review">
+                            <p><strong>Jane Smith:</strong> A grand tourer like no other!</p>
+                            <p><strong>Rating:</strong> ★★★★☆</p>
+                            <p><strong>Comment:</strong> A beautiful grand tourer with superb performance. It combines luxury with driving pleasure, though it can be a bit pricey.</p>
+                        </div>
+                    </section>
+                    <button class="Buy now">Buy now</button>
+                    <button class="add-to-cart-btn">Add to Cart</button>
                 </article>
-            </div>
+                   <!-- Toast Notification -->
+<div class="toast-container">
+    <div class="toast" id="toast">Your product has been added to the cart.</div>
+</div>
+
+               
         </section>
     </main>
+
+    <footer>
+        <p>&copy; 2024 GearUp. All rights reserved.</p>
+    </footer>
 </body>
 </html>

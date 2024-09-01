@@ -1,3 +1,5 @@
+
+//registration 
 // registration.js
 
 document.addEventListener("DOMContentLoaded", () => {

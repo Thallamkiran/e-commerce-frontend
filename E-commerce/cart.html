@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="grearup (4).png" alt="Company Logo" class="logo">
+        <h1>Your Shopping Cart</h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="registration.html">Register</a>
+        <a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a>
+        <span class="cart-count"></span>
+        <a href="checkout.html">checkout</a>
+    </nav>
+    
+    <main class="container">
+        <section class="cart-items">
+            <h2>Items in Your Cart</h2>
+
+            <!-- Cart Item -->
+            <div class="cart-item">
+                <img src="volvo.webp" alt="volvo" class="cart-item-image">
+                <div class="cart-item-details">
+                    <h3>Segment Killers</h3>
+                    <p class="cart-item-price">₹5,000,000</p>
+                    <p class="cart-item-quantity">Quantity: 1</p>
+                    <button class="remove-button">Remove</button>
+                </div>
+            </div>
+
+            <!-- Repeat Cart Item for each product in cart -->
+
+           <!-- Cart Summary -->
+<div class="cart-summary">
+    <p>Total: ₹5,000,000</p>
+    <a href="checkout.html" class="checkout-button">Proceed to Checkout</a>
+</div>
+
+        </section>
+    </main>
+</body>
+</html>
